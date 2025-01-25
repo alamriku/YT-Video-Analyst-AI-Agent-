@@ -1,0 +1,6 @@
+torch
+transformers
+huggingface-hub
+opencv-python
+youtube-dl
+google-api-python-client
