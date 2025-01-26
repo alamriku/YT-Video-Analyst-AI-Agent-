@@ -2,7 +2,7 @@ import os
 import googleapiclient.discovery
 
 def scrape_videos():
-    api_key = "AIzaSyBePFYZmb-RgGZl-pwCsDXU-Ot3BS8JK-k"
+    api_key = "your api key"
     youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
     
     request = youtube.search().list(q="dog", part="id,snippet", type="video", maxResults=10)
